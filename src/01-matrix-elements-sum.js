@@ -16,6 +16,16 @@
  */
 function getMatrixElementsSum(/* matrix */) {
   throw new Error('Not implemented');
+
+  // let sum = 0;
+  // let j = 0;
+  // for (let i = 0; i < matrix.length; i++) {
+  //   if (matrix[i][j] === 0) {
+  //     j++;
+  //   }
+  //   sum += matrix[i][j];
+  // }
+  // return sum;
 }
 
 module.exports = getMatrixElementsSum;
